@@ -1,0 +1,28 @@
+/* Hypothetical import for Papyrus (replace if you find a CDN) */
+@import url('https://fonts.googleapis.com/css2?family=Papyrus&display=swap');
+
+body {
+    font-family: 'Papyrus', cursive; /* Apply Papyrus, with a fallback */
+    background: linear-gradient(135deg, #e6e471, #ff87c9);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 90%;
+    max-width: 700px;
+}
+
+h2.card-title {
+    font-family: 'Papyrus', cursive;
+}
+
+label.form-label,
+.form-control,
+.btn {
+    font-family: 'Papyrus', cursive;
+}
